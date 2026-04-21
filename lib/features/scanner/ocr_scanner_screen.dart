@@ -73,11 +73,11 @@ class _OcrScannerScreenState extends State<OcrScannerScreen> {
       if (!mounted) return;
       final provider = Provider.of<HealthSummaryProvider>(context, listen: false);
       await provider.saveSummary(newSummary);
-        
+
+      if (mounted) {
         setState(() {
           _result = newSummary;
         });
-
         Navigator.pushReplacementNamed(context, '/analytics');
       }
     } catch (e) {
