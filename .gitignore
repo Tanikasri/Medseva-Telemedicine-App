@@ -1,0 +1,28 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.g.dart
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/google-services.json
+android/key.properties
+
+# iOS
+ios/Pods/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+
+# Web build artifacts
+web/ 

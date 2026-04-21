@@ -1,0 +1,19 @@
+# Flutter / Dart
+.buildlog/
+.dart_tool/
+.packages
+.pub/
+build/
+
+# Android
+android/.gradle/
+android/app/build/
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+
+# Misc
+*.log
+*.tmp
+.DS_Store
