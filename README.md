@@ -1,5 +1,7 @@
 # 🏥 MedSeva Telemedicine App
 
+> **🚀 Live Demo: [https://tanikasri.github.io/Medseva-Telemedicine-App](https://tanikasri.github.io/Medseva-Telemedicine-App)**
+
 A fully **offline-first** Flutter telemedicine app with on-device OCR, local data persistence using Hive, and a dynamic health dashboard — no backend required!
 
 ---
@@ -17,12 +19,6 @@ A fully **offline-first** Flutter telemedicine app with on-device OCR, local dat
 
 ### Medical Reports
 ![Reports](screenshots/04_reports.png)
-
----
-
-## 🎥 Demo Recording
-
-![Demo](screenshots/demo.webp)
 
 ---
 
